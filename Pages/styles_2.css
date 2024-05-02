@@ -136,11 +136,7 @@ input {
   }
 }
 
-.city {
-  list-style-type: disc;
-  text-align: justify;
-  width: 80%;
-}
+
 
 a {
   color: inherit; /* Utilise la couleur héritée du parent */
@@ -253,3 +249,35 @@ footer {
   position: fixed;
 }
 
+.t{
+  margin: 5%;
+  width: 80%;
+}
+
+.alternance {
+  display: flex;
+}
+
+.alternance p{
+  width: 60%;
+  text-align: justify;
+  margin-left: 5%;
+
+}
+
+.alternance img{
+  max-width: 200px;
+  max-height: 200px;
+  margin-left: 350px;
+  margin-top: 200px;
+  
+}
+
+
+/* .alternance img{
+  width: 200px;
+  height: auto;    
+  margin-left: 2px;
+  
+
+} */

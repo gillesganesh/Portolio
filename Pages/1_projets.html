@@ -12,10 +12,11 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <nav class="navbar">
-        <a href="index.html" class="logo" id="Nom">GILLES GANESHARAJAH</a>
+        <a href="../index.html" class="logo" id="Nom">GILLES GANESHARAJAH</a>
         <div class="nav-links">
             <ul>
                 <li><a href="../index.html">Accueil</a></li>
+                <li><a href="propos.html">A propos de moi</a></li>
                 <li class="active"><a href="1_projets.html">Projets</a></li>
                 <li><a href="2_Experience.html">Experiences</a></li>
                 <li><a href="3_Contact.html">Contact</a></li>
@@ -57,36 +58,93 @@
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Accordion Item #1
+                    Application Streamlit : City fighting
                 </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <div class="city">
+                            <strong>Introduction :</strong><br><br>
+
+                        Le projet <strong>"City Fighting"</strong> vise à créer une interface web permettant la comparaison de deux villes sur différents aspects socio-économiques et culturels. L'objectif est de fournir aux utilisateurs une plateforme interactive et intuitive pour les aider à prendre des décisions basées sur des données objectives. Ce rapport détaille les différentes étapes de développement de l'application ainsi que les sources de données utilisées.
+                        <br><br>
+                        <strong>1. Développement de l'Application Web :</strong><br><br>
+
+                        L'application web a été développée en utilisant Streamlit, une bibliothèque Python qui simplifie considérablement le processus de création d'applications web interactives. Streamlit offre une approche conviviale et orientée données, ce qui en fait un choix idéal pour ce projet, qui repose principalement sur la manipulation et la visualisation de données.                    <br>
+                        <br>Les fonctionnalités principales de l'application incluent :<br><br>
+
+                        <ol>
+                            <li>Sélection de deux villes pour la comparaison.</li>
+                            <li>Affichage des données générales, emploi, logement et météo pour chaque ville.</li>
+                            <li>Intégration de données complémentaires telles que la culture, le tourisme, la formation, les sports, etc.</li>
+                            <li>Visualisation des données à l'aide de graphiques, de cartes et de tableaux interactifs.</li>
+                            <li>Possibilité d'ajouter des critères personnalisés pour une comparaison plus approfondie.</li>
+                        </ol><br>
+                        <strong>2. Sources de Données :</strong><br><br>
+
+                        Pour alimenter l'application en données pertinentes, plusieurs sources ont été utilisées, notamment :<br>
+
+                        Fichiers téléchargeables de l'INSEE et d'autres sources d'open data fournissant des données démographiques, socio-économiques et climatiques.<br>
+                        Utilisation d'API telles que Wikipedia, Pôle Emploi, et d'autres sources pour obtenir des informations sur la culture, le tourisme, l'emploi, etc.<br>
+                        Exploration d'autres sources de données disponibles en ligne pour couvrir un large éventail d'aspects pour chaque ville.<br><br>
+                        <strong>3. Données Obligatoires et Complémentaires :</strong><br><br>
+
+                        Les données obligatoires incluent des informations générales sur les villes, l'emploi, le logement et la météo, tandis que les données complémentaires couvrent des domaines tels que la culture, le tourisme, la formation, les sports, l'activité sur les réseaux sociaux, etc.
+                        <br><br>
+                        <strong>Conclusion :</strong><br>
+                        <br>Le projet "City Fighting" a abouti à la création d'une interface web robuste permettant une comparaison détaillée de deux villes sur divers aspects. En utilisant des sources de données variées et fiables, l'application fournit aux utilisateurs des informations précieuses pour les aider dans leurs décisions. Des efforts continus seront déployés pour améliorer l'application, notamment en ajoutant de nouvelles fonctionnalités et en mettant à jour les données régulièrement pour assurer leur pertinence.
+                        <br><br>
+                        <strong> Images du projets : </strong><br><br>
+                        <img src="../img/city.png" alt="Application streamlit" id="cityfight">
+                    </div>
+                    
                 </div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Accordion Item #2
+                    Application Rshiny : Outil décisionnel
                 </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <div class="city">
+                        <strong>Introduction :</strong><br><br>
+                        Dans le cadre de ce projet, nous avons entrepris de développer une application web interactive pour répondre à la question cruciale : "Comment constituer l'équipe idéale dans Football Manager ?" L'objectif principal était d'acquérir des compétences avancées en intégration de données et en analyse pour optimiser les décisions tactiques et stratégiques dans ce jeu de gestion sportive.<br><br>
+                        <strong>1. Développement de l'Application Web :</strong><br><br>
+                        Le cœur de ce projet résidait dans le développement d'un tableau de bord interactif à l'aide de Rshiny, une plateforme qui permet de créer des applications web conviviales à partir de scripts R. Cette application fournissait des visualisations intuitives des données pertinentes extraites de Football Manager, offrant ainsi aux utilisateurs une interface dynamique pour explorer les différentes composantes de leur équipe et prendre des décisions éclairées.<br><br>
+                        <strong>2. Sources de Données :</strong><br><br>
+                        Pour alimenter notre application, nous avons exploité diverses sources de données provenant de Football Manager. Ces données comprenaient des informations sur les joueurs, leurs performances passées, leurs attributs techniques et physiques, ainsi que des données sur les équipes adverses, les compétitions et les tendances du marché des transferts. En recueillant ces données, nous avons pu créer une base solide pour nos analyses et nos recommandations.<br><br>
+                        <strong>3. Données Obligatoires et Complémentaires :</strong><br><br>
+                        Dans notre processus d'analyse, nous avons identifié deux types de données essentielles : les données obligatoires et les données complémentaires. Les données obligatoires comprenaient des informations de base sur les joueurs, telles que leur âge, leur poste de prédilection et leurs statistiques de performance. Les données complémentaires, quant à elles, englobaient des facteurs plus spécifiques, tels que les préférences tactiques de l'utilisateur, les objectifs à court et à long terme de l'équipe, ainsi que les tendances du marché des transferts. En combinant ces deux types de données, nous avons pu élaborer des analyses approfondies et des recommandations pertinentes pour constituer l'équipe idéale.<br><br>
+                        <strong>Conclusion :</strong><br><br>
+                        En conclusion, ce projet nous a permis de développer des compétences avancées en intégration de données et en analyse, tout en offrant une solution pratique pour répondre à la question complexe de la constitution de l'équipe idéale dans Football Manager. Grâce à notre application web interactive basée sur Rshiny, les utilisateurs ont pu accéder à des visualisations intuitives, explorer les données de manière approfondie et prendre des décisions éclairées pour maximiser les performances de leur équipe dans le jeu. Ce projet illustre ainsi le potentiel des outils d'analyse de données pour optimiser les stratégies de gestion dans le domaine du sport virtuel.
+                        <br><br><img src="../img/rshiny.png" alt="Application rshiny" id="rshiny">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Accordion Item #3
+                    Data Mining : Scoring
                 </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <div class="city">
+                        <strong>Introduction :</strong><br><br>
+                            Ce projet vise à améliorer les performances d'une campagne marketing en construisant plusieurs ciblages de 2000 clients à l'aide de méthodes statistiques. L'objectif est d'identifier efficacement les futurs résiliés afin d'optimiser les actions marketing. Pour ce faire, différentes approches de ciblage seront explorées, allant du ciblage aléatoire au ciblage scoré plus complexe. La mesure de performance se fera en comparant chaque ciblage avec une liste de clients ayant réellement résilié sur une période donnée.<br><br>
+                            <strong>1. Développement de l'Application Web :</strong><br><br>
+                            Le développement de l'application impliquera la mise en place d'un environnement informatique où seront implémentées les différentes méthodes de ciblage. Des outils statistiques seront utilisés pour construire les ciblages et évaluer leur performance. Il sera également nécessaire de développer une interface conviviale permettant de visualiser les résultats des différents ciblages et de comparer leurs performances.<br><br>
+                            <strong>2. Sources de Données :</strong><br><br>
+                            Les sources de données constitueront la matière première de notre projet. Elles comprendront des informations sur les clients, telles que leurs caractéristiques démographiques, comportementales et transactionnelles. Ces données pourront être obtenues à partir des bases de données de l'entreprise ou de sources externes. Elles seront utilisées pour construire les différents ciblages et évaluer leur efficacité.<br><br>
+                            <strong>3. Données Obligatoires et Complémentaires :</strong><br><br>
+                            Dans notre processus de ciblage, nous aurons besoin de données à la fois obligatoires et complémentaires. Les données obligatoires incluront des informations de base sur les clients, telles que leur âge, leur sexe et leur historique d'achats. Les données complémentaires pourront inclure des informations plus spécifiques, telles que leurs préférences produits, leur historique de navigation sur le site web de l'entreprise, ou encore des données provenant de sources externes telles que les réseaux sociaux. En combinant ces différentes sources de données, nous pourrons construire des ciblages plus précis et plus efficaces.<br><br>
+                            <strong>Conclusion :</strong><br><br>
+                            Ce projet offre une opportunité d'optimiser les campagnes marketing en utilisant des méthodes statistiques avancées pour le ciblage des clients. En explorant différentes approches de ciblage et en évaluant leur performance, nous pourrons identifier les meilleures stratégies pour maximiser le taux de rétention des clients. La mise en place d'une structure de répertoires pertinente facilitera l'organisation et la gestion des données, contribuant ainsi à la réussite du projet.
+                    </div>
                 </div>
             </div>
         </div>

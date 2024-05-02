@@ -240,6 +240,19 @@ a {
   }
 }
 
+.city {
+  list-style-type: disc;
+  text-align: justify;
+  margin: 3%;
+}
+
+#cityfight{
+  width: 100%;
+}
+
+#rshiny{
+  width: 100%;
+}
 
 footer {
   font-family: "Poppins";
